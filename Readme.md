@@ -1,5 +1,5 @@
 Copilot Scraper Project
-This project automates the process of logging into Microsoft Copilot, sending queries, and scraping the responses for further analysis. The responses are saved in both JSON and SQLite formats, and a Jupyter notebook is provided for data preprocessing.
+This project automates the process of logging into Microsoft Copilot, sending queries, and scraping the responses for further analysis. The responses are saved in both JSON and SQLite formats.
 
 Features
 Automated login to Copilot using Selenium with stealth and fake user agent
@@ -14,7 +14,6 @@ config.py — Configuration for credentials and queries
 responses.json — Collected responses in JSON format
 copilot_data.db — Collected responses in SQLite format
 requirements.txt — Python dependencies
-Setup
 Install dependencies:
 
 pip install -r requirements.txt
@@ -22,10 +21,9 @@ pip install -r requirements.txt
 Update config.py with your Microsoft account credentials and queries.
 
 Run the scraper:
-
 python main.py
 
-Notes
+Notes:
 Manual intervention may be required for CAPTCHA or verification during login.
 The project uses Selenium Stealth and fake-useragent to reduce bot detection.
 Data preprocessing includes handling missing values, encoding, and normalization.
