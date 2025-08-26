@@ -1,0 +1,8 @@
+[
+    {
+        "query": "What is a json file?",
+        "response": "A JSON file (short for JavaScript Object Notation) is a lightweight, text-based format used to store and exchange data. It’s super popular because it’s easy for both humans to read and machines to parse. 🧠 Key Features of JSON Structure: Data is organized in key-value pairs, like a dictionary in Python. Format: Uses curly braces {} for objects and square brackets [] for arrays. Language-independent: Though it originated from JavaScript, it’s used across many programming languages. 📦 Example of a JSON File Json Copy { \"name\": \"Scrapper\", \"location\": \"Sahiwal\", \"skills\": [\"Python\", \"Web scraping\", \"Data analysis\"], \"active\": true, \"projects\": [ {\"title\": \"Weather Tracker\", \"status\": \"ongoing\"}, {\"title\": \"JSON Parser\", \"status\": \"completed\"} ] } 🔧 Common Uses APIs: Most web APIs send and receive data in JSON format. Configuration files: Many apps use .json files to store settings. Data exchange: Between servers, apps, or even between frontend and backend. Want to try parsing or creating one in Python? I can show you how with json.loads() or json.dump(). Edit in a page",
+        "word_count": 168,
+        "char_length": 1082
+    }
+]
